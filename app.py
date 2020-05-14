@@ -1,18 +1,9 @@
-# Arithmetic Operators
-x = 10 + 3
-x = 10 - 3
-x = 10 * 3
-x = 10 / 3
-x = 10 // 3  # gives us an int
-x = 10 % 3
-x = 10 ** 3
+# Working with Numbers
+import math
 
-x += 3
-x -= 3
-x *= 3
-x /= 3
-x //= 3
-x %= 4
-x **= 3
+PI = -3.14 # uppercase by convention
 
-print(x)
+print(round(PI))
+print(abs(PI))
+
+print(math.floor(PI))
