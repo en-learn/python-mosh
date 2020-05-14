@@ -1,12 +1,12 @@
-# \"
-# \'
-# \\
-# \n
+first = "Mosh"
+last = "Hamedani"
 
-message = 'Python \n"Programming'
-print(message)
+# String concatenation
+full = first + " " + last
+print(full)
 
-message = """Python
-Programming
-"""
-print(message)
+# String interpolation (formatted strings)
+full = f"{first} {last}"
+print(full)
+expression = F"{len(full)} {2 + 3}"
+print(expression)
