@@ -1,21 +1,18 @@
-# Numbers
-x = 10
-y = 0b10
+# Arithmetic Operators
+x = 10 + 3
+x = 10 - 3
+x = 10 * 3
+x = 10 / 3
+x = 10 // 3  # gives us an int
+x = 10 % 3
+x = 10 ** 3
+
+x += 3
+x -= 3
+x *= 3
+x /= 3
+x //= 3
+x %= 4
+x **= 3
 
 print(x)
-print(y)
-
-print(bin(x))
-print(bin(y))
-
-x = 0x12c
-print(x)
-print(hex(x))
-
-# Complex numbers
-# a + bi
-
-x = 1 + 2j
-print(x)
-x = 1j
-print(x * x)
