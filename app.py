@@ -1,12 +1,16 @@
-first = "Mosh"
-last = "Hamedani"
+# Useful String Methods
+course = "  Python Programming"
 
-# String concatenation
-full = first + " " + last
-print(full)
+print(course.upper())
+print(course.lower())
+print(course.title())
 
-# String interpolation (formatted strings)
-full = f"{first} {last}"
-print(full)
-expression = F"{len(full)} {2 + 3}"
-print(expression)
+print(course.strip())
+
+print(course.find("Pro"))
+print(course.find("pro"))
+
+print(course.replace("P", "-"))
+
+print("Programming" in course)
+print("Programming" not in course)
