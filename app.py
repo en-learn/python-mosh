@@ -1,6 +1,11 @@
-x = [1,2,3]
-print(id(x))
+course = "Python Programming"
+print(len(course))
+print(course[0])
+print(course[-1])
+print(course[0:3])
+print(course[:3])
+print(course[0:])
+print(course[:])
 
-x.append(4)
-print(id(x))
-
+print(id(course))
+print(id(course[0]))
