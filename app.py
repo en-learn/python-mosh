@@ -1,16 +1,21 @@
-# Useful String Methods
-course = "  Python Programming"
+# Numbers
+x = 10
+y = 0b10
 
-print(course.upper())
-print(course.lower())
-print(course.title())
+print(x)
+print(y)
 
-print(course.strip())
+print(bin(x))
+print(bin(y))
 
-print(course.find("Pro"))
-print(course.find("pro"))
+x = 0x12c
+print(x)
+print(hex(x))
 
-print(course.replace("P", "-"))
+# Complex numbers
+# a + bi
 
-print("Programming" in course)
-print("Programming" not in course)
+x = 1 + 2j
+print(x)
+x = 1j
+print(x * x)
