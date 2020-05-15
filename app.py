@@ -1,12 +1,11 @@
-# Type Conversion
-x = input("x: ")
+# Conditional Statements
+age = 22
+if age >= 18:
+    print("Adult")
+    print("Adult")
+elif age >= 13:
+    print("Teenager")
+else:
+    print("Child")
 
-print(int(x))
-print(float(x))
-print(bool(x))
-
-# Falsy values
-# ""
-# 0
-# []
-# None (null)
+print("All done!")
