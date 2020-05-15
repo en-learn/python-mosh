@@ -1,22 +1,8 @@
-# For..Elase
-names = ["John", "Mary"]
+# While Loops
+guess = 0
+answer = 5
 
-# Other programming languages
-found = False
-for name in names:
-    if name.startswith("J"):
-        print("Found")
-        found = True
-        break
-
-if not found:
-    print("Not found")
-
-# Python
-for name in names:
-    if name.startswith("J"):
-        print("Found")
-        break
+while answer != guess:
+    guess = int(input("Guess: "))
 else:
-    print("Not found")
-
+    print("No break statement was used")
