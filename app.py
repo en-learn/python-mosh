@@ -1,9 +1,12 @@
-# Working with Numbers
-import math
+# Type Conversion
+x = input("x: ")
 
-PI = -3.14 # uppercase by convention
+print(int(x))
+print(float(x))
+print(bool(x))
 
-print(round(PI))
-print(abs(PI))
-
-print(math.floor(PI))
+# Falsy values
+# ""
+# 0
+# []
+# None (null)
