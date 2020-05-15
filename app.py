@@ -1,26 +1,22 @@
-# For Loops
-# for x in "Python":
-#     print(x)
+# For..Elase
+names = ["John", "Mary"]
 
-# for x in ['a', 'b', 'c']:
-#     print(x)
+# Other programming languages
+found = False
+for name in names:
+    if name.startswith("J"):
+        print("Found")
+        found = True
+        break
 
-for x in range(5):
-    print(x)
+if not found:
+    print("Not found")
 
-print("")
+# Python
+for name in names:
+    if name.startswith("J"):
+        print("Found")
+        break
+else:
+    print("Not found")
 
-for x in range(3, 5):
-    print(x)
-
-print("")
-
-for x in range(0, 10, 2):
-    print(x)
-
-# The range function does not return a list object
-print(range(5))
-print([1, 2, 3, 4, 5])
-
-# A range takes very little memory, even if the range is large
-print(type(range(5000000000)))
