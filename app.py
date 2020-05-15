@@ -1,13 +1,11 @@
 # Logical Operators
-name = " "
-
-if not name.strip():
-    print("Name is empty")
-
 age = 22
-if age >= 18 and age < 65:
-    print("Eligible")
 
-# Clean syntax!
-if 18 <= age < 65:
-    print("Eligible")
+if age >= 18:
+    message = "Eligible"
+else:
+    message = "Not eligible"
+
+message = "Eligible" if age >= 18 else "Not eligible"
+
+print(message)
