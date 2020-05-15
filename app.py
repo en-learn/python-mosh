@@ -1,18 +1,7 @@
-# Arguments
-def multiply(*list):
-    total = 1
-    for number in list:
-        total *= number
-    return total
+# Arguments - xxargs
+def save_user(**user):
+    print(user)
+    print(user["id"])
 
 
-print(multiply(2, 3, 4, 5))
-
-
-
-
-
-
-
-
-
+save_user(id=1, name="admin")
