@@ -1,7 +1,11 @@
-# Arguments - xxargs
-def save_user(**user):
-    print(user)
-    print(user["id"])
+# Scope
+message = "a"
 
+def greet():
+    global message
+    message = "b"
+    print(message)
 
-save_user(id=1, name="admin")
+greet()
+print(message)
+
